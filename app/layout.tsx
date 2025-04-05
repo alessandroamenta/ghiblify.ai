@@ -1,5 +1,6 @@
 import type React from "react";
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 import { Nunito } from "next/font/google";
 import { PT_Sans } from "next/font/google";
 import "./globals.css";
@@ -42,6 +43,7 @@ export default function RootLayout({
         >
           <div className="texture" />
           {children}
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
