@@ -17,9 +17,12 @@ const ptSans = PT_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Ghiblify.ai - Transform Your Photos into Studio Ghibli Art",
+  title: "✨ Ghiblify.ai - Transform Your Photos into Studio Ghibli Art",
   description:
     "Upload your images and transform them into beautiful Studio Ghibli style art",
+  icons: {
+    icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><text y='32' font-size='32'>✨</text></svg>",
+  },
 };
 
 export default function RootLayout({
